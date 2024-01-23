@@ -1,0 +1,56 @@
+
+
+:root {
+    --dark: #16191C;
+    --dark-x: #2d384a; 
+    --light: #ffffff;
+    --text: #c4bcbc;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+.text-light { color: var(--light) !important; }
+.bg-dark { background-color: var(--dark-x) !important; }
+.bg-dark-x { background-color: var(--text); }
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.form-control:focus {
+    background-color: var(--text);
+    outline: none;
+}
+
+.p1{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+.img-1 {
+    background-image: url('../images/portada.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('../images/portada3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3 {
+    background-image: url('../images/portada1.jpg');
+    background-size: cover;
+    background-position: center;
+}

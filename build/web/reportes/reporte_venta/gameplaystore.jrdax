@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+  <name>gameplaystore</name>
+  <classpath>C:\Users\joanv\Documents\NetBeansProjects5toCiclo\reportes01\librerias\mysql-connector-java-8.0.26.jar</classpath>
+  <driver>com.mysql.jdbc.Driver</driver>
+  <username>root</username>
+  <password>root</password>
+  <url>jdbc:mysql://localhost/gameplaystore?serverTimezone=UTC</url>
+  <database></database>
+  <savePassword>true</savePassword>
+  <serverAddress></serverAddress>
+</jdbcDataAdapter>
